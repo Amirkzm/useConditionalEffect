@@ -1,6 +1,6 @@
 {
   "name": "@amir253700/use-conditional-effect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A conditional useEffect hook",
   "author": "Amir Kazemi",
   "license": "MIT",
