@@ -1,9 +1,12 @@
 {
-  "name": "useConditionalEffect",
+  "name": "@amir253700/use-conditional-effect",
   "version": "1.0.0",
   "description": "A conditional useEffect hook",
   "author": "Amir Kazemi",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/amir253700"
+  },
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs"
   },
