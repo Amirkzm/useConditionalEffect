@@ -15,7 +15,7 @@ type Cleanup = () => void;
 const useConditionalEffect = (
   effectFunction: Props["effectFunction"],
   dependencies: Props["dependencies"]
-) => {
+): void => {
   const flag = useRef<boolean>(false);
   const [cleanup, setCleanup] = useState<Cleanup | null>(null);
 
